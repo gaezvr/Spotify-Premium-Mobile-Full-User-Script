@@ -2,7 +2,7 @@
 This Spotify Script Is Created For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
 This Script Is Intended For Mobile Use Specially But Works On Every Type Of Device.
 
-=======================================================================================================
+======================================
 
 Use Instructions : 
 
@@ -18,7 +18,7 @@ Use Instructions :
 
 Feel Free To Enjoy And Share This Link With Friends!
 
-======================================================================================================
+======================================
 
 What Are UserScripts ?
 
