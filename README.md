@@ -8,7 +8,7 @@ You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY
 
 Use Instructions : 
 
-1. Download An Extension-Compatible Mobile Browser, As https://kiwibrowser.com/. Or Either Use This On A Computer Browser. 
+1. Download An Extension-Compatible Mobile Browser, As https://kiwibrowser.com/. Or Either Use This On A Computer Browser. You Will Be Using The Spotify Web Player Not The Application.
 
 2. Go to Extensions Tab On Your Browser and Install Any Of These User-Script Managers Web Extensions, There Are Many For Chromium and Firefox-based Browsers Like:
 - https://violentmonkey.github.io/
