@@ -2,7 +2,7 @@
 This Spotify Script Is Created For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
 This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device.
 
-You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM without downloading any app, just from the OFFCIAL WEBSITE!
+You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM without downloading any APP, just from the OFFCIAL WEBSITE!
 
 ======================================
 
