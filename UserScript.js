@@ -4,7 +4,7 @@
 // @version      1.0
 // @author       gaezvr
 // @match        *://open.spotify.com/*
-// @description  Detects and Skips Ads on spotify, Mobile Spotify Premium Web, Download Songs. For Research Purposes Only, I'm not responsible of the Use of the Script
+// @description  Detects and Skips Ads on spotify, Mobile Spotify Premium Web, Download Songs. For Research Purposes Only, I'm not responsible For the Use of this Script.
 // @copyright    gaezvr
 // @license      MIT;
 // ==/UserScript==
