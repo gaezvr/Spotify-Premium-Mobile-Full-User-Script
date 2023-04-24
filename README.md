@@ -18,7 +18,7 @@ Use Instructions :
 
 4. Copy Paste The Whole Raw Script On Your Brand New Script, Click On Save & Close and Voilà !
 
-Feel Free To Enjoy And Share This Link With Friends!
+Feel Free To Enjoy And Share This Link With Friends, There's Nothing More You Should Do!
 
 ======================================
 
