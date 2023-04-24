@@ -58,15 +58,6 @@
         const link = document.querySelector('.now-playing > a');
 
         if (link) {
-
-            if (!audio) {
-                return console.error('Audio-element not found!');
-            }
-
-            if (!playButton) {
-                return console.error('Play-button not found!');
-            }
-
             audio.src = '';
             playButton.click();
             if (!playInterval) {
