@@ -4,7 +4,7 @@ This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm N
 
 This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device. 200 Lines Of Pure Code.
 
-You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM forever without downloading any APP, just from the OFFCIAL WEBSITE!
+You are able to DOWNLOAD SONGS from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM FOREVER without downloading any APP, just from the OFFCIAL WEBSITE!
 
 ======================================
 
