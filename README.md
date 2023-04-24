@@ -1,8 +1,8 @@
 # Spotify-Premium-Full-User-Script
 This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
-This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device. 200 Lines Of Pure Code
+This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device. 200 Lines Of Pure Code.
 
-You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM without downloading any APP, just from the OFFCIAL WEBSITE!
+You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM forever without downloading any APP, just from the OFFCIAL WEBSITE!
 
 ======================================
 
@@ -19,6 +19,22 @@ Use Instructions :
 4. Copy Paste The Whole Raw Script (Named By UserScript.js On This Repo) On Your Brand New Script, Click On Save & Close and Voilà !
 
 Feel Free To Enjoy And Share This Link With Friends, There's Nothing More You Should Do!
+
+======================================
+
+How To Download Songs From Spotify?
+
+Apart from the other functionalities, you are able to download FULL songs by Just Clicking On The Download Button On The Left Side Of The Song's Name (see image) !
+
+![image](https://user-images.githubusercontent.com/119749941/234030551-9a0fc7cd-912f-4ce5-812c-f671871a413a.png)
+
+How Do I Skip Ads?
+
+It's completely automated, dont worry :) !
+
+Will It Last Forever?
+
+Yes, it does.
 
 ======================================
 
