@@ -1,6 +1,6 @@
 # Spotify-Premium-Complete-User-Script
 This Spotify Script Is Created For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
-This Script Is Intended For Mobile Use Specially But Works On Every Type Of Device.
+This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device.
 
 Feel Free To Star The Repository!
 
@@ -8,15 +8,15 @@ Feel Free To Star The Repository!
 
 Use Instructions : 
 
-1. Download A Extension-Compatible Mobile Browser Free To Use, As https://kiwibrowser.com/. Or Either Use On A Computer Browser. 
+1. Download An Extension-Compatible Mobile Browser, As https://kiwibrowser.com/. Or Either Use This On A Computer Browser. 
 
-2. Go to Extensions On Your Browser and Install Any User-Script Manager Web Extension, There Are Many For Chromium and Firefox-based Browsers :
+2. Go to Extensions Tab On Your Browser and Install Any Of These User-Script Managers Web Extensions, There Are Many For Chromium and Firefox-based Browsers Like:
 - https://violentmonkey.github.io/
 - https://www.tampermonkey.net/
 
-3. Once Installed, open the Extension Page, and Create A New Script.
+3. Once Installed, open the Installed Extension Page, and Create A Brand New Script From Scratch.
 
-4. Copy Paste The Raw Script, Click On Save & Close and Voilà !
+4. Copy Paste The Whole Raw Script On Your Brand New Script, Click On Save & Close and Voilà !
 
 Feel Free To Enjoy And Share This Link With Friends!
 
