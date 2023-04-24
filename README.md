@@ -1,5 +1,7 @@
 # Spotify-Premium-Full-User-Script
-This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
+
+This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script. 
+
 This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device. 200 Lines Of Pure Code.
 
 You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM forever without downloading any APP, just from the OFFCIAL WEBSITE!
@@ -47,3 +49,5 @@ Popular user script extensions include Greasemonkey for Firefox and Tampermonkey
 While user scripts can be incredibly powerful and useful, it's important to exercise caution when installing them. Because user scripts have access to the web page's HTML, CSS, and JavaScript, they can potentially be used to steal information or perform malicious actions. Users should only install user scripts from trusted sources and be careful when granting them access to sensitive information.
 
 Version : 1.0
+
+ © gaezvr
