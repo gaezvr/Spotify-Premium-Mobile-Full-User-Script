@@ -2,6 +2,8 @@
 This Spotify Script Is Created For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script.  © gaezvr
 This Script Is Intended For Mobile Use Specially But Works On Every Type Of Device.
 
+Feel Free To Start The Repository!
+
 ======================================
 
 Use Instructions : 
