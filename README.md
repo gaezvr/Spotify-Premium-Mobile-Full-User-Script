@@ -16,7 +16,7 @@ Use Instructions :
 
 3. Once Installed, open the Installed Extension Page, and Create A Brand New Script From Scratch.
 
-4. Copy Paste The Whole Raw Script On Your Brand New Script, Click On Save & Close and Voilà !
+4. Copy Paste The Whole Raw Script (Named By UserScript.js On This Repo) On Your Brand New Script, Click On Save & Close and Voilà !
 
 Feel Free To Enjoy And Share This Link With Friends, There's Nothing More You Should Do!
 
