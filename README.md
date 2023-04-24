@@ -4,8 +4,6 @@ This Script Is Intended For Mobile Use Specifically But Works On Every Type Of D
 
 You are able to DOWNLOAD songs from SPOTIFY, AUTO-SKIP ADS, AND GET FREE SPOTIFY MOBILE PREMIUM without downloading any app, just from the OFFCIAL WEBSITE!
 
-Feel Free To Star The Repository!
-
 ======================================
 
 Use Instructions : 
