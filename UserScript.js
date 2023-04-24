@@ -126,7 +126,7 @@ style.innerText = `
 
 document.body.appendChild( style );
 
-function animate() {
+function animation() {
 
 	const tracks = document.querySelectorAll( '[data-testid="tracklist-row"]' );
 
@@ -196,14 +196,14 @@ setInterval( animate, 1000 );
 
 (function () {
     'use strict';
-    let _scr = {};
+    let scr = {};
     for (const key in window.screen) {
-        _scr[key] = window.screen[key];
+        scr[key] = window.screen[key];
     }
-    Object.setPrototypeOf(_scr, Object.getPrototypeOf(window.screen));
+    Object.setPrototypeOf(scr, Object.getPrototypeOf(window.screen));
 
-    _scr.width = 1080;
-    _scr.height = 1920;
+    scr.width = 1080;
+    scr.height = 1920;
 
-    window.screen = _scr;
+    window.screen = scr;
 })();
