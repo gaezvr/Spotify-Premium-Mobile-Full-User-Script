@@ -9,10 +9,22 @@
 // @license      MIT;
 // ==/UserScript==
 
-// Detectar y bloquear anuncios
+(function () {
+    'use strict';
+    let _scr = {};
+    for (const key in window.screen) {
+        _scr[key] = window.screen[key];
+    }
+    Object.setPrototypeOf(_scr, Object.getPrototypeOf(window.screen));
+ 
+    _scr.width = 1080;
+    _scr.height = 1920;
+ 
+    window.screen = _scr;
+})();
 
 !async function () {
-
+ 
     async function queryAsync(query) {
         return new Promise(resolve => {
             const interval = setInterval(() => {
@@ -24,7 +36,7 @@
             }, 250);
         });
     }
-
+ 
     function inject({ctx, fn, middleware, transform}) {
         const original = ctx[fn];
         ctx[fn] = function () {
@@ -34,30 +46,41 @@
             }
         };
     }
-
+ 
     const nowPlayingBar = await queryAsync('.now-playing-bar');
     const playButton = await queryAsync('button[title=Play], button[title=Pause]');
-
+ 
     let audio;
-
+ 
     inject({
         ctx: document,
         fn: 'createElement',
         transform(result, type) {
-
+ 
             if (type === 'audio') {
                 audio = result;
             }
-
+ 
             return result;
         }
     });
-
+ 
     let playInterval;
     new MutationObserver(() => {
         const link = document.querySelector('.now-playing > a');
-
+ 
         if (link) {
+ 
+            if (!audio) {
+                return console.error('Audio-element not found!');
+            }
+ 
+            if (!playButton) {
+                return console.error('Play-button not found!');
+            }
+ 
+
+ 
             audio.src = '';
             playButton.click();
             if (!playInterval) {
@@ -77,27 +100,35 @@
         attributes: true,
         subtree: true
     });
+ 
 
+    const style = document.createElement('style');
+    style.innerHTML = `
+        [aria-label="Upgrade to Premium"],
+        body > div:not(#main) {
+            display: none !important;
+        }
+    `;
+ 
+    document.body.appendChild(style);
 }();
 
-// Descargar Canciones
-
 const style = document.createElement( 'style' );
-
+ 
 style.innerText = `
-
+ 
 [role='grid'] {
 	margin-left: 50px;
 }
-
+ 
 [data-testid='tracklist-row'] {
 	position: relative;
 }
-
+ 
 [role="presentation"] > * {
 	contain: unset;
 }
-
+ 
 .btn {
 	width: 40px;
 	height: 40px;
@@ -109,11 +140,11 @@ style.innerText = `
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
-
+ 
 .btn:hover {
 	transform: scale(1.1);
 }
-
+ 
 [data-testid='tracklist-row'] .btn {
 	position: absolute;
 	top: 50%;
@@ -121,89 +152,73 @@ style.innerText = `
 	margin-top: -20px;
 	margin-right: 10px;
 }
-
+ 
 `;
-
+ 
 document.body.appendChild( style );
-
-function animation() {
-
+ 
+function animate() {
+ 
 	const tracks = document.querySelectorAll( '[data-testid="tracklist-row"]' );
-
+ 
 	for ( let i = 0; i < tracks.length; i ++ ) {
-
+ 
 		const track = tracks[ i ];
-
+ 
 		if ( ! track.hasButton ) {
-
+ 
 			addButton( track ).onclick = function () {
-
+ 
 				const btn = track.querySelector( '[data-testid="more-button"]' );
-
+ 
 				btn.click();
-
+ 
 				const highlight = document.querySelector( '#context-menu a[href*="highlight"]' ).href.match( /highlight=(.+)/ )[ 1 ];
-
+ 
 				document.dispatchEvent( new MouseEvent( 'mousedown' ) );
-
+ 
 				const url = 'https://open.' + highlight.replace( ':', '.com/' ).replace( ':', '/' );
-
+ 
 				download( url );
-
+ 
 			}
-
+ 
 		}
-
+ 
 	}
-
+ 
 	const actionBarRow = document.querySelector( '[data-testid="action-bar-row"]:last-of-type' );
-
+ 
 	if ( actionBarRow && ! actionBarRow.hasButton ) {
-
+ 
 		addButton( actionBarRow ).onclick = function () {
-
+ 
 			download( window.location.href );
-
+ 
 		}
-
+ 
 	}
-
+ 
 }
-
+ 
 function download( link ) {
-
+ 
 	window.open( 'https://spotify-downloader.com/?link=' + link, '_blank' );
-
+ 
 }
-
+ 
 function addButton( el ) {
-
+ 
 	const button = document.createElement( 'button' );
-
+ 
 	button.className = 'btn';
-
+ 
 	el.appendChild( button );
-
+ 
 	el.hasButton = true;
-
+ 
 	return button;
-
+ 
 }
-
+ 
 setInterval( animate, 1000 );
-
-// Modificacion Pantalla Para La Website De Movil No Se Refresque
-
-(function () {
-    'use strict';
-    let scr = {};
-    for (const key in window.screen) {
-        scr[key] = window.screen[key];
-    }
-    Object.setPrototypeOf(scr, Object.getPrototypeOf(window.screen));
-
-    scr.width = 1080;
-    scr.height = 1920;
-
-    window.screen = scr;
-})();
