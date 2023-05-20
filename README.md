@@ -16,9 +16,12 @@ Use Instructions :
 - https://violentmonkey.github.io/
 - https://www.tampermonkey.net/
 
-3. Once Installed, open the Installed Extension Page, and Create A Brand New Script From Scratch.
+3. Once Installed, open the Installed Extension Options Page, and Create A Brand New Script From Scratch.
 
 4. Copy Paste The Whole Raw Script (Named By UserScript.js On This Repo) On Your Brand New Script, Click On Save & Close and Voilà !
+
+5. Enter spotify.com on Desktop View : ![image](https://github.com/gaezvr/Spotify-Premium-Full-User-Script/assets/119749941/492391af-7579-44b8-af49-78ac1e9e4f5c)
+
 
 Feel Free To Enjoy And Share This Link With Friends, There's Nothing More You Should Do!
 
