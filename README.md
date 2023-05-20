@@ -1,4 +1,4 @@
-# Spotify-Premium-Full-User-Script
+# Spotify-Premium-Mobile-Full-User-Script
 
 This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script. 
 
