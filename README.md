@@ -1,5 +1,8 @@
 # Spotify-Premium-Mobile-Full-User-Script
 
+
+ATTENTION : THIS SCRIPT IS OUTDATED AND DOESNT WORK, FORGET EVERYTHING IM NOT PLANNING IN UPDATING IT, ONCE AGAIN, IM NOT RESPONSIBLE FOR THE USE OF IT
+
 This Spotify Script Is Created By Me For Research Purposes Only, I Repeat, I'm Not Responsible For The Use Of The Script. 
 
 This Script Is Intended For Mobile Use Specifically But Works On Every Type Of Device. 200 Lines Of Pure Code.
